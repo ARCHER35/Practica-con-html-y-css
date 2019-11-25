@@ -54,32 +54,42 @@
             </form>
         </li>
     </ul>
-    <h1 style="color: white;">Registro</h1>
-    <form role="form"></form>
-    <div class="form-group" style="background: chocolate;">
-        <label for="Nombres">Nombres:</label>
-        <input type="Nombres" class="form-control" id="Nombres">
+    <div class="contenedor">
+        <form action="action" class="form">
+            <div class="form-header">
+                <h1 class="form-title"><span>REGISTRO</span></h1>
+            </div>
+            <label for="nombre" class="form-label">Nombres:</label>
+            <input type="text" id="nombre" class="form-input" placeholder="Escriba su Nombre">
+
+            <label for="Apellidos" class="form-label">Apellidos:</label>
+            <input type="text" id="Apellidos" class="form-input" placeholder="Escriba Apellidos">
+
+            <label for="Fecha de Nacimiento" class="form-label">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" class="form-input" placeholder="Escriba su fecha de Nacimiento">
+
+            <label for="direccion" class="form-label">Direccion:</label>
+            <input type="text" id="direccion" class="form-input" placeholder="Escriba su Direccion">
+
+            <label for="correo" class="form-label">Correo Electronico:</label>
+            <input type="email" id="correo" class="form-input" placeholder="Escriba su Correo Electronico">
+
+            <label for="contraseña" class="form-label">Contraseña:</label>
+            <input type="password" id="contraseña" class="form-input" placeholder="Escriba su Contraseña">
+
+            <input type="submit" class="btn-submit" value="Enviar">
+        </form>
     </div>
-    <div class="form-group" style="background: crimson;">
-        <label for="pwd">Apellidos:</label>
-        <input type="Apellidos" class="form-control" id="pwd">
+    </label>
+    <style>
+        div.b {
+            text-align: center;
+        }
+    </style>
+    <div class="b">
+        <img src="img/u0Q5wyo.gif" width="575" height="250">
     </div>
-    <div class="form-group" style="background: darkcyan;">
-        <label for="pwd">CI:</label>
-        <input type="type" class="form-control" id="pwd">
-    </div>
-    <div class="form-group" style="background: darkolivegreen;">
-        <label for="pwd">Fecha de Nacimiento:</label>
-        <input type="date" class="form-control" id="pwd">
-    </div>
-    <div class="form-group" style="background:springgreen;">
-        <label for="pwd">Contraseña:</label>
-        <input type="password" class="form-control" id="pwd">
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="index.html">Nuevo por Aqui? Registrate</a>
-        <a class="dropdown-item" href="login.html">Olvidadaste tu Contraseña?</a>
-    </div>
-    </label><img src="img/u0Q5wyo.gif" width="480" height="250">
+
     </form>
     <div>
         <button type="button" class="btn btn-primary btn-sm">Enviar</button>
